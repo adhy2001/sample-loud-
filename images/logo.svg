@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 36" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+  </defs>
+  <!-- Loud mark - ascending bars representing growth -->
+  <rect x="2" y="14" width="8" height="20" rx="4" fill="url(#logoGrad)"/>
+  <rect x="14" y="8" width="8" height="26" rx="4" fill="url(#logoGrad)" opacity="0.9"/>
+  <rect x="26" y="2" width="8" height="32" rx="4" fill="url(#logoGrad)" opacity="0.8"/>
+  <!-- IMC accent dot -->
+  <circle cx="42" cy="18" r="6" fill="url(#logoGrad)"/>
+</svg>

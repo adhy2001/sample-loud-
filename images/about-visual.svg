@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <linearGradient id="aboutGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+  <rect x="50" y="50" width="400" height="300" rx="20" fill="#f8fafc" stroke="url(#aboutGrad)" stroke-width="2"/>
+  <rect x="80" y="80" width="120" height="80" rx="8" fill="url(#aboutGradLight)"/>
+  <rect x="220" y="80" width="180" height="60" rx="8" fill="url(#aboutGradLight)" opacity="0.7"/>
+  <rect x="80" y="180" width="320" height="40" rx="6" fill="url(#aboutGradLight)" opacity="0.5"/>
+  <rect x="80" y="235" width="250" height="40" rx="6" fill="url(#aboutGradLight)" opacity="0.4"/>
+  <circle cx="420" cy="300" r="50" fill="url(#aboutGrad)" opacity="0.2"/>
+  <circle cx="420" cy="300" r="30" fill="url(#aboutGrad)" opacity="0.4"/>
+  <path d="M400 300 L415 285 L430 300 L415 315 Z" fill="#fff"/>
+</svg>

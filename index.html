@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loud IMC - Creative Agency for Digital Transformation</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/Logo1 copy.png" alt="Loud IMC" class="nav-logo me-2">
+                <span class="brand-text">LOUD IMC</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="overview.html">Overview</a></li>
+                            <li><a class="dropdown-item" href="newsroom.html">News Room</a></li>
+                            <li><a class="dropdown-item" href="leaders.html">Leaders</a></li>
+                            <li><a class="dropdown-item" href="commitments.html">Commitments</a></li>
+                            <li><a class="dropdown-item" href="people.html">The People</a></li>
+                            <li><a class="dropdown-item" href="history.html">History</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#specialized" id="specializedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Specialized</a>
+                        <ul class="dropdown-menu" aria-labelledby="specializedDropdown">
+                            <li><a class="dropdown-item" href="fmcg.html">FMCG</a></li>
+                            <li><a class="dropdown-item" href="medical.html">Medical</a></li>
+                            <li><a class="dropdown-item" href="service-sector.html">Service Sector</a></li>
+                            <li><a class="dropdown-item" href="media.html">Media</a></li>
+                            <li><a class="dropdown-item" href="health-tourism.html">Health and Tourism</a></li>
+                            <li><a class="dropdown-item" href="training.html">Training</a></li>
+                            <li><a class="dropdown-item" href="retail.html">Retail</a></li>
+                            <li><a class="dropdown-item" href="telecommunication.html">Telecommunication</a></li>
+                            <li><a class="dropdown-item" href="travel.html">Travel</a></li>
+                            <li><a class="dropdown-item" href="automation.html">Automation</a></li>
+                            <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                            <li><a class="dropdown-item" href="personal-branding.html">Personal Branding</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#capabilities" id="capabilitiesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Capabilities</a>
+                        <ul class="dropdown-menu" aria-labelledby="capabilitiesDropdown">
+                            <li><a class="dropdown-item" href="Business_Development.html">Business Development</a></li>
+                            <li><a class="dropdown-item" href="Root_Cause_Analysis.html">Root Cause Analysis</a></li>
+                            <li><a class="dropdown-item" href="Strategy_Development.html">Strategy Development</a></li>
+                            <li><a class="dropdown-item" href="Digital_Technology_and_Data.html">Digital Technology and Data</a></li>
+                            <li><a class="dropdown-item" href="Market_Research.html">Market Research</a></li>
+                            <li><a class="dropdown-item" href="Marketing_Consultation.html">Marketing Consultation</a></li>
+                            <li><a class="dropdown-item" href="Sales_Training.html">Sales Training</a></li>
+                            <li><a class="dropdown-item" href="Brand_Development.html">Brand Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#ppf">PPF</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#core-values" id="coreValuesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Core Values</a>
+                        <ul class="dropdown-menu" aria-labelledby="coreValuesDropdown">
+                            <li><a class="dropdown-item" href="#consultation">Consultation</a></li>
+                            <li><a class="dropdown-item" href="#360-degree-branding">360 Degree Branding</a></li>
+                            <li><a class="dropdown-item" href="#360-degree-marketing">360 Degree Marketing</a></li>
+                            <li><a class="dropdown-item" href="#louder-effective-communication">Louder Effective Communication</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Join Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-bg-image"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-content">
+            <div class="hero-title-slider">
+                <h1 class="hero-title hero-title-active">
+                    We <span class="highlight">Ignite</span><br>Digital Evolution.
+                </h1>
+                <h1 class="hero-title">
+                    <span class="highlight">Efficient</span> Processes<br>Streamline Operations.
+                </h1>
+            </div>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Loud IMC helps brands navigate the gap between sustainability and growth through strategic innovation and remarkable digital experiences.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="200">
+                <a href="#contact" class="btn-primary">Start a Project</a>
+                <a href="#capabilities" class="btn-secondary">Our Services</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="section-title">About <span class="text-gradient">Loud IMC</span></h2>
+                    <p class="about-text">
+                        Loud IMC is a dynamic creative agency specializing in digital transformation and innovative marketing solutions. Founded with a vision to bridge the gap between traditional business practices and modern digital landscapes.
+                    </p>
+                    <p class="about-text">
+                        Our team combines deep industry expertise with cutting-edge technology to deliver exceptional results. We believe in the power of creativity, data-driven insights, and strategic thinking to help our clients navigate the complexities of the digital age.
+                    </p>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-image-wrapper">
+                        <img src="images/about copy.jpg" alt="About Loud IMC" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Slider Section -->
+    <section class="logo-slider-section" id="specialized">
+        <div class="container">
+            <p class="logo-slider-title" data-aos="fade-up">Trusted by <span class="text-gradient">industry leaders</span></p>
+        </div>
+        <div class="logo-slider-container">
+            <div class="logo-slider-fade logo-slider-fade-left"></div>
+            <div class="logo-slider-fade logo-slider-fade-right"></div>
+            <div class="logo-slider">
+                <div class="logo-slider-item"><img src="images/Kitchen-01.jpg" alt="Kitchen"></div>
+                <div class="logo-slider-item"><img src="images/4poin-01 (1).jpg" alt="4Point"></div>
+                <div class="logo-slider-item"><img src="images/100-01 (1).jpg" alt="100"></div>
+                <div class="logo-slider-item"><img src="images/Makkari-01 (1).jpg" alt="Makkari"></div>
+                <div class="logo-slider-item"><img src="images/mass-01.jpg" alt="Mass"></div>
+                <div class="logo-slider-item"><img src="images/Minsara-01.jpg" alt="Minsara"></div>
+                <div class="logo-slider-item"><img src="images/loud-01.jpg" alt="Loud"></div>
+                <div class="logo-slider-item"><img src="images/madhyamam-01.jpg" alt="Madhyamam"></div>
+                <div class="logo-slider-item"><img src="images/Kitchen-01.jpg" alt="Kitchen"></div>
+                <div class="logo-slider-item"><img src="images/4poin-01 (1).jpg" alt="4Point"></div>
+                <div class="logo-slider-item"><img src="images/100-01 (1).jpg" alt="100"></div>
+                <div class="logo-slider-item"><img src="images/Makkari-01 (1).jpg" alt="Makkari"></div>
+                <div class="logo-slider-item"><img src="images/mass-01.jpg" alt="Mass"></div>
+                <div class="logo-slider-item"><img src="images/Minsara-01.jpg" alt="Minsara"></div>
+                <div class="logo-slider-item"><img src="images/loud-01.jpg" alt="Loud"></div>
+                <div class="logo-slider-item"><img src="images/madhyamam-01.jpg" alt="Madhyamam"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Work Section -->
+    <section class="how-we-work-section" id="core-values">
+        <div class="container">
+            <h2 class="section-title text-center mb-2" data-aos="fade-up">How <span class="text-gradient">We Work</span></h2>
+            <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="50">Our proven process to transform your business</p>
+            
+            <div class="work-grid">
+                <article class="work-card" data-aos="fade-up" data-aos-delay="0">
+                    <a href="Business_Development.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/we_meet copy.jpg" alt="We Meet">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>We Meet</h3>
+                            <p>If you're ever feeling stuck or just want to get a fresh perspective on your current business or to discuss a new idea from you.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="50">
+                    <a href="Strategy_Development.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/we-listen.jpg" alt="We Listen">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>We Listen</h3>
+                            <p>When it comes to coming up with new business ideas, one of the best ways to get inspired is by listening to others.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="100">
+                    <a href="Market_Research.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/work (1).jpg" alt="Study">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Study</h3>
+                            <p>Anyone who has ever run a business knows how important it is to understand your industry and what challenges lie ahead.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="150">
+                    <a href="Root_Cause_Analysis.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/roots copy.jpg" alt="Root">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Root</h3>
+                            <p>Everyone has different personality traits, and understanding key person's personality is an important part of business.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="200">
+                    <a href="Market_Research.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/swot copy.jpg" alt="SWAT Analysis">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>SWAT Analysis</h3>
+                            <p>SWAT analysis is a technique used to understand the dynamics of tactical situations in order to make informed decisions.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="250">
+                    <a href="Marketing_Consultation.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/discussing copy.jpg" alt="Discussing Future">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Discussing Future</h3>
+                            <p>There's never been a better time to start planning for your future. With so many opportunities out there, it can be hard to decide where to start.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="300">
+                    <a href="Sales_Training.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/finance copy.jpg" alt="Financial">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Financial</h3>
+                            <p>In order to be financially strong, it is important to have a good understanding of your finances.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="350">
+                    <a href="Digital_Technology_and_Data.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/Execution copy.jpg" alt="Execution">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Execution</h3>
+                            <p>As a business owner, you know that execution is key to success. If you can't get your plan executed, then you'll likely be unsuccessful.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card" data-aos="fade-up" data-aos-delay="400">
+                    <a href="Brand_Development.html" class="work-card-link">
+                        <div class="work-card-image">
+                            <img src="images/work (1).jpg" alt="Initialising">
+                            <span class="work-card-overlay"></span>
+                        </div>
+                        <div class="work-card-body">
+                            <h3>Initialising</h3>
+                            <p>The initial stage in branding and advertising involves laying the foundation for a successful and impactful brand.</p>
+                            <span class="work-card-cta">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stat Bar Section -->
+    <section class="stat-bar-section" id="ppf">
+        <div class="container">
+            <div class="stat-bar">
+                <div class="stat-item" data-aos="zoom-in">
+                    <span class="stat-number counter" data-target="90">0</span>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Cases Completed</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <span class="stat-number counter" data-target="49">0</span>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Consultants</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <span class="stat-number counter" data-target="70">0</span>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Award Wining</p>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <span class="stat-number counter" data-target="80">0</span>
+                    <span class="stat-suffix">%</span>
+                    <p class="stat-label">Satisfied Customer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="capabilities">
+        <div class="container">
+            <h2 class="section-title text-center mb-2" data-aos="fade-up">Our <span class="text-gradient">Services</span></h2>
+            <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="50">Comprehensive solutions for business growth</p>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Business Development</h3>
+                        <p>Strategic growth and expansion solutions tailored to your vision.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Strategy Development</h3>
+                        <p>Comprehensive business strategy planning and execution.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Digital Technology</h3>
+                        <p>Cutting-edge digital solutions and data analytics.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Brand Development</h3>
+                        <p>Creative brand identity and positioning that stands out.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs & News Section -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <h2 class="section-title text-center mb-2" data-aos="fade-up">Blogs & <span class="text-gradient">News</span></h2>
+            <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="50">Latest insights and updates from our team</p>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog_1 (1).jpg" alt="Blog post">
+                            <span class="blog-category">Strategy</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>ChatGPT, a new artificial intelligence chatbot, has taken the internet by storm </h3>
+                            <p>ChatGPT, an advanced artificial intelligence chatbot, has indeed gained significant attention and popularity across the internet.</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog_2 (1).jpg" alt="Blog post">
+                            <span class="blog-category">Branding</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Various reasons, and common factors associated with the failure of Startups</h3>
+                            <p>One of the primary reasons startups fail is the lack of sufficient market demand for their product or service</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="images/blog_3 (1).jpg" alt="Blog post">
+                            <span class="blog-category">Innovation</span>
+                        </div>
+                        <div class="blog-content">
+                            <h3>How is the new-age unleashing new business insights for a new era?</h3>
+                            <p>In the new age of technology and data, businesses have access to vast amounts of information</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title text-center mb-2" data-aos="fade-up">Get In <span class="text-gradient">Touch</span></h2>
+            <p class="section-subtitle text-center mb-5" data-aos="fade-up" data-aos-delay="50">Let's work together to transform your business</p>
+            <div class="row g-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="contact-map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.123456789012!2d75.7804!3d11.2588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTEuMjU4OCw3NS43ODA0!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" title="Office Location"></iframe>
+                    </div>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 2nd Floor, Breeze Business Park, Pavangad, Kozhikode, Kerala, India 673021</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+918822223311">+91 882 222 3311</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="images/Logo1 copy.png" alt="Loud IMC" class="footer-logo">
+                    <span>LOUD IMC</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#core-values">How We Work</a>
+                    <a href="#capabilities">Services</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/360loud" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/360loud" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p>&copy; 2025 LOUD IMC. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919745007333" class="whatsapp-float" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

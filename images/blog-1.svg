@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="blog1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="blog1Accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#blog1Grad)"/>
+  <rect x="40" y="60" width="80" height="8" rx="4" fill="url(#blog1Accent)" opacity="0.8"/>
+  <rect x="40" y="85" width="200" height="8" rx="4" fill="rgba(255,255,255,0.9)"/>
+  <rect x="40" y="110" width="160" height="8" rx="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="320" cy="100" r="40" fill="url(#blog1Accent)" opacity="0.3"/>
+  <path d="M300 100 L315 85 L330 100 L315 115 Z" fill="url(#blog1Accent)"/>
+</svg>
